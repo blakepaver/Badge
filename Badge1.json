@@ -1,90 +1,92 @@
-[
-  {
-    "groupId": "resolution",
-    "pattern": "\\b(4K|2160p)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FFE67E22",
-    "borderColor": "#D0E67E22"
-  },
-  {
-    "groupId": "resolution",
-    "pattern": "\\b(1080p|FHD)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FF2980B9",
-    "borderColor": "#D02980B9"
-  },
-  {
-    "groupId": "video_format",
-    "pattern": "\\b(DV|Dolby\\s?Vision)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FF8E44AD",
-    "borderColor": "#D08E44AD"
-  },
-  {
-    "groupId": "video_format",
-    "pattern": "\\b(HDR10\\+)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FF27AE60",
-    "borderColor": "#D027AE60"
-  },
-  {
-    "groupId": "video_format",
-    "pattern": "\\b(HDR10|HDR)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FF2ECC71",
-    "borderColor": "#D02ECC71"
-  },
-  {
-    "groupId": "audio_codec",
-    "pattern": "\\b(Atmos)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FFD35400",
-    "borderColor": "#D0D35400"
-  },
-  {
-    "groupId": "audio_codec",
-    "pattern": "\\b(TrueHD)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FFC0392B",
-    "borderColor": "#D0C0392B"
-  },
-  {
-    "groupId": "audio_codec",
-    "pattern": "\\b(DTS\\s?-?\\s?HD\\s?MA)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#F1C40F",
-    "borderColor": "#D0F1C40F"
-  },
-  {
-    "groupId": "audio_codec",
-    "pattern": "\\b(DTS)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FFf39c12",
-    "borderColor": "#D0f39c12"
-  },
-  {
-    "groupId": "audio_channels",
-    "pattern": "\\b(7\\.1)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#FF7F8C8D",
-    "borderColor": "#D07F8C8D"
-  },
-  {
-    "groupId": "audio_channels",
-    "pattern": "\\b(5\\.1)\\b",
-    "imageURL": "",
-    "tagStyle": "filled and bordered",
-    "tagColor": "#95A5A6",
-    "borderColor": "#D095A5A6"
-  }
-]
+{
+  "badges": [
+    {
+      "groupId": "resolution",
+      "pattern": "\\b(4K|2160p)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FFE67E22",
+      "borderColor": "#D0E67E22"
+    },
+    {
+      "groupId": "resolution",
+      "pattern": "\\b(1080p|FHD)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FF2980B9",
+      "borderColor": "#D02980B9"
+    },
+    {
+      "groupId": "video_format",
+      "pattern": "\\b(DV|Dolby\\s?Vision)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FF8E44AD",
+      "borderColor": "#D08E44AD"
+    },
+    {
+      "groupId": "video_format",
+      "pattern": "\\b(HDR10\\+)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FF27AE60",
+      "borderColor": "#D027AE60"
+    },
+    {
+      "groupId": "video_format",
+      "pattern": "\\b(HDR10|HDR)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FF2ECC71",
+      "borderColor": "#D02ECC71"
+    },
+    {
+      "groupId": "audio_codec",
+      "pattern": "\\b(Atmos)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FFD35400",
+      "borderColor": "#D0D35400"
+    },
+    {
+      "groupId": "audio_codec",
+      "pattern": "\\b(TrueHD)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FFC0392B",
+      "borderColor": "#D0C0392B"
+    },
+    {
+      "groupId": "audio_codec",
+      "pattern": "\\b(DTS\\s?-?\\s?HD\\s?MA)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#F1C40F",
+      "borderColor": "#D0F1C40F"
+    },
+    {
+      "groupId": "audio_codec",
+      "pattern": "\\b(DTS)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FFf39c12",
+      "borderColor": "#D0f39c12"
+    },
+    {
+      "groupId": "audio_channels",
+      "pattern": "\\b(7\\.1)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#FF7F8C8D",
+      "borderColor": "#D07F8C8D"
+    },
+    {
+      "groupId": "audio_channels",
+      "pattern": "\\b(5\\.1)\\b",
+      "imageURL": "",
+      "tagStyle": "filled and bordered",
+      "tagColor": "#95A5A6",
+      "borderColor": "#D095A5A6"
+    }
+  ]
+}
